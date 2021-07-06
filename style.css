@@ -240,6 +240,7 @@ form legend {
 
 .centralizador {
     text-align: center;
+    margin: 20px;
 }
 
 .enviar {
@@ -274,6 +275,71 @@ form legend {
         width: 80%;
     }
 }
+
+
+/* teste do terminal */
+
+#consoleH {
+    display: none;
+}
+
+#console {
+    display: flex;
+    font-family: courier, monospace;
+    color: rgb(0, 255, 0);
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    font-size: 14px;
+    background-color: #000;
+    padding: 20px;
+}
+
+
+/* a {
+    color: #0bc;
+    text-decoration: none;
+} */
+
+
+/* #a {
+    color: #0f0;
+}
+
+#c {
+    color: #0bc;
+}
+
+#b {
+    color: #ff0096;
+}
+
+#k {
+    animation: change 1s;
+} */
+
+
+/* 
+#op {
+    color: #888888
+} */
+
+
+/* @keyframes change {
+    0% {
+        color: #0f0;
+    }
+    50% {
+        color: #0f0;
+    }
+    99% {
+        color: black;
+    }
+} */
+
+
+/* fim do teste do console */
 
 
 /* Fim do CSS da tela de terminal */

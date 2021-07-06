@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
     <link rel='stylesheet' href='style.css'>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 </head>
 
 
@@ -24,55 +25,20 @@
                     <ul>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="char.html">Personagens</a></li>
-                        <li><a href="terminal.html">Área do Mestre</a></li>
+                        <li><a href="terminal.html">Terminal</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
-    <main>
-        <form>
-            <label for="nick">Nick:</label>
-            <input type="text" id="nick" class="inputPadrao" required>
-
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" class="inputPadrao" required placeholder="seuemail@dominio.com">
-
-            <label for="telefone">Telefone:</label>
-            <input type="tel" id="telefone" class="inputPadrao" required placeholder="(ddd) xxxxx-xxxx">
-
-            <label for="msg">Mensagem:</label>
-            <textarea cols="30" rows="10" id="msg" class="inputPadrao" required>
-            </textarea>
+    <div class="centralizador">
+        <button type="button" onclick="validaUser()">Logar</button>
+    </div>
+    <div id="console"></div>
 
 
-            <fieldset>
-                <legend>Como prefere nosso contato?</legend>
-                <label for="radioEmail"><input type="radio" name="contato" value="Email" id="radioEmail">&nbsp;&nbsp;E-mail</label>
 
-                <label for="radioTelefone"><input type="radio" name="contato" value="Telefone" id="radioTelefone">&nbsp;&nbsp;Telefone</label>
-
-                <label for="radioWhatsapp"><input type="radio" name="contato" value="Whatsapp" id="radioWhatsapp" checked>&nbsp;&nbsp;Whatsapp</label>
-
-            </fieldset>
-            <fieldset>
-                <legend>Qual horário prefere?</legend>
-                <select>
-                <option>&nbsp;&nbsp;Manhã</option>
-                <option>&nbsp;&nbsp;Tarde</option>
-                <option>&nbsp;&nbsp;Noite</option>
-
-            </select>
-            </fieldset>
-
-            <label><input type="checkbox" class="checkbox" checked>&nbsp;&nbsp;Gostaria de receber nossas novidades por e-mail?</label>
-            <div class="centralizador">
-                <input type="submit" class="enviar">
-            </div>
-        </form>
-
-    </main>
-
+    <script src="script/script.js "></script>
     <footer>
         <p>No &copy; reserved</p>
     </footer>
